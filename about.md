@@ -9,7 +9,7 @@ order: 4
 ---
 
 ## Who am I?
-My name is Simon Krenz and I live in germany.
+My name is Simon and I live in germany.
 
 ## Where do I work?
 I work for an industrial company as some kind of security engineer in the field of incident detection & response. I also lead a team of talented red and blue teamers.
