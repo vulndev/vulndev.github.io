@@ -3,7 +3,6 @@ layout: post
 title:  OpenHAB: How to use your own certificates
 description: >
 categories: [openhab, cryptography]
-image: openhab-logo.svg
 ---
 ![openhab](https://vuln.dev/assets/img/openhab_logo.svg)
 # openHAB: How to use your own certifcate authority
