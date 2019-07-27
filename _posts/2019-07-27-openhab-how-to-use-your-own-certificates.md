@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  OpenHAB: How to use your own certificates
-description: >openHAB has mainly three different ways to remote access it via an encrypted communication. None of them will teach you how to use your own certificate authority. In this post it will be described.
+description: >
 categories: [openhab, cryptography]
 image: openhab-logo.svg
 ---
