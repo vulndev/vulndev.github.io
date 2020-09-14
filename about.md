@@ -10,7 +10,9 @@ order: 4
 
 ## Contact
 Name: Simon Krenz
+
 E-Mail: sk [at] vuln [dot] dev
+
 Github: https://github.com/4nx
 
 ## About me
