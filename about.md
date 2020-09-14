@@ -13,7 +13,7 @@ Name: Simon Krenz
 
 E-Mail: sk [at] vuln [dot] dev
 
-Github: https://github.com/4nx
+Github: [https://github.com/4nx](https://github.com/4nx)
 
 ## About me
 I work for an industrial company as some kind of security engineer in the field of incident detection & response.
