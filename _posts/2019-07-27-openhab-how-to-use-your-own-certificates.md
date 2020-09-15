@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  OpenHAB: How to use your own certificates
+title:  OpenHAB How to use your own certificates
 description: >
 categories: [openhab, cryptography]
 ---
