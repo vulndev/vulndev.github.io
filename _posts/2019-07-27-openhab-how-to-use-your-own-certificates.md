@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  OpenHAB How to use your own certificates
+title:  OpenHAB: How to use your own certificates
 description: >
 categories: [openhab, cryptography]
 ---
@@ -11,7 +11,6 @@ categories: [openhab, cryptography]
   * Loading keys and certificates via PKCS12
 {:toc .large-only}
 
-# openHAB: How to use your own certifcate authority
 ![openhab](https://vuln.dev/assets/img/openhab_logo.svg)
 
 openHAB has mainly three different ways to remote access it via an encrypted communication. All three of them are well documented whether because there are lot of tutorials in general (e.g. for VPN) or within the documentation of openHAB itself. You can find those ways [here](https://www.openhab.org/docs/installation/security.html).
