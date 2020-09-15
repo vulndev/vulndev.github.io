@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  OpenHAB How to use your own certificates
-description: >
+description: >openHAB has mainly three different ways to remote access it via an encrypted communication. All three of them are well documented whether because there are lot of tutorials in general (e.g. for VPN) or within the documentation of openHAB itself. You can find those ways [here](https://www.openhab.org/docs/installation/security.html).
 categories: [openhab, cryptography]
 ---
 * Use your own certificate authority
@@ -13,7 +13,6 @@ categories: [openhab, cryptography]
 
 ![openhab](https://vuln.dev/assets/img/openhab_logo.svg)
 
-# Using certificates 
 openHAB has mainly three different ways to remote access it via an encrypted communication. All three of them are well documented whether because there are lot of tutorials in general (e.g. for VPN) or within the documentation of openHAB itself. You can find those ways [here](https://www.openhab.org/docs/installation/security.html).
 
 ## Use your own certificate authority
