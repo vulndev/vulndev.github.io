@@ -4,6 +4,13 @@ title:  OpenHAB How to use your own certificates
 description: >
 categories: [openhab, cryptography]
 ---
+* Use your own certificate authority
+* Create the certificate authority
+* Issue a new certificate
+* Create the keystore for openHAB
+  * Loading keys and certificates via PKCS12
+{:toc .large-only}
+
 # openHAB: How to use your own certifcate authority
 ![openhab](https://vuln.dev/assets/img/openhab_logo.svg)
 
@@ -90,7 +97,7 @@ Before adding the new certifcate and key into the keystore the actual one should
 $ mv ${USER_DATA}etc/keystore ${USER_DATA}etc/keystore.bak
 ~~~
 
-#### Loading Keys and Certificates via PKCS12
+#### Loading keys and certificates via PKCS12
 Because we have the certificate and key in different files, we need to combine them into a PKCS12 format file to load them into a new keystore. The following command combines the key in **_cert-key.pem_** and the certificate in the **_cert-pub.pem_** file into the **_openhab.example.net.p12_** file:
 ~~~
 $ openssl pkcs12 -inkey cert-key.pem -in cert-pub.pem -export -out openhab.example.net.p12 -password pass:openhab
